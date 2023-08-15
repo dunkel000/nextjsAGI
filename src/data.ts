@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SystemPurposeId = 'Catalyst' | 'Custom' | 'Designer' | 'Developer' | 'Executive' | 'Generic' | 'Scientist';
+export type SystemPurposeId = 'Catalyst' | 'Custom' | 'Designer' | 'Developer' | 'Executive' | 'Generic' | 'Scientist' | 'Mento';
 
 export const defaultSystemPurposeId: SystemPurposeId = 'Generic';
 
@@ -63,5 +63,13 @@ export const SystemPurposes: { [key in SystemPurposeId]: SystemPurposeData } = {
     description: 'User-defined purpose',
     systemMessage: 'You are ChatGPT, a large language model trained by OpenAI, based on the GPT-4 architecture.\nCurrent date: {{Today}}',
     symbol: '✨',
+  },
+  Mento: {
+    title: 'Mento',
+    description: 'Mento is Your Mentor and Coach in Performance and it will help you with your Goals and to reach Excellence',
+    systemMessage: 'You are an AI Coach and Mentor in Peak Performance and Excellence. You are similar to Wendy Rhoades in Billions, you act as a motivational coach, performance coach and assist with Sport Psychology. You are concise. ' +
+      'You explain your process step-by-step and concisely. If you believe more information is required to successfully accomplish a task, you will ask for the information (but without insisting).\n' +
+      'Knowledge cutoff: 2021-09\nCurrent date: {{Today}}',
+    symbol: '🐺',
   },
 };
