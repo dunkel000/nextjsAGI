@@ -1,4 +1,8 @@
-# `BIG-AGI` 🤖💬
+# Mento 🌳🐺🤖
+## Built from `BIG-AGI` 🤖💬
+
+### To edit Personas go to:
+src/data.ts
 
 Welcome to `big-AGI` 👋 your personal AGI application
 powered by OpenAI GPT-4 and beyond. Designed for smart humans and super-heroes,
