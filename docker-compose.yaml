@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   mento-nextjsAGI:
-    image: ghcr.io/enricoros/big-agi:main
+    image: dunkel000/mento-nextjsagi:latest
     ports:
       - "3003:3000" #As 3000 us mostly used
     env_file:
