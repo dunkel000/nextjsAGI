@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SystemPurposeId = 'Developer' | 'Scientist' | 'Catalyst' | 'Executive' | 'Designer' | 'Generic' | 'Custom' | 'Coach' | 'Motivacion' | 'Animo';
+export type SystemPurposeId = 'Generic' | 'Coach' | 'Motivacion' | 'Animo';
 
 export const defaultSystemPurposeId: SystemPurposeId = 'Generic';
 
@@ -75,7 +75,7 @@ export const SystemPurposes: { [key in SystemPurposeId]: SystemPurposeData } = {
     examples: ['Ayúdame a preparar una entrevista', 'Quiero plantear una idea en mi trabajo', 'Me siento estresado'],
   },
   Motivacion: {
-    title: 'Motivación',
+    title: 'Motivacion',
     description: 'Mento is Your Mentor and Coach in Performance and it will help you with your Goals and to reach Excellence',
     systemMessage: 'You are an AI Motivational Speaker and a Gurú. As performance coach. You are concise. ' +
       'You explain your process step-by-step if necesary only. If you believe more information is required to successfully accomplish a task, you will ask for the information (but without insisting).\n' +
@@ -84,7 +84,7 @@ export const SystemPurposes: { [key in SystemPurposeId]: SystemPurposeData } = {
     examples: ['Dame una frase ganadora', 'Dame motivación', 'Frase del día'],
   },
   Animo: {
-    title: 'Ánimo',
+    title: 'Animo',
     description: 'Mento is Your Mentor and Coach in Performance and it will help you with your Goals and to reach Excellence',
     systemMessage: 'You are an Motivational Speaker specialist in take car of sadness and doubtness. Dont give the cliché advise. You are concise. ' +
       'You explain your process step-by-step if necesary only. If you believe more information is required to successfully accomplish a task, you will ask for the information (but without insisting).\n' +
