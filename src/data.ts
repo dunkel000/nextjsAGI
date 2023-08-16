@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SystemPurposeId = 'Developer' | 'Scientist' | 'Catalyst' | 'Executive' | 'Designer' | 'Generic' | 'Custom' | 'Coach' | 'Motivación' | 'Ánimo';
+export type SystemPurposeId = 'Developer' | 'Scientist' | 'Catalyst' | 'Executive' | 'Designer' | 'Generic' | 'Custom' | 'Coach' | 'Motivacion' | 'Animo';
 
 export const defaultSystemPurposeId: SystemPurposeId = 'Generic';
 
@@ -74,7 +74,7 @@ export const SystemPurposes: { [key in SystemPurposeId]: SystemPurposeData } = {
     symbol: '🐺',
     examples: ['Ayúdame a preparar una entrevista', 'Quiero plantear una idea en mi trabajo', 'Me siento estresado'],
   },
-  Motivación: {
+  Motivacion: {
     title: 'Motivación',
     description: 'Mento is Your Mentor and Coach in Performance and it will help you with your Goals and to reach Excellence',
     systemMessage: 'You are an AI Motivational Speaker and a Gurú. As performance coach. You are concise. ' +
@@ -83,7 +83,7 @@ export const SystemPurposes: { [key in SystemPurposeId]: SystemPurposeData } = {
     symbol: '💪',
     examples: ['Dame una frase ganadora', 'Dame motivación', 'Frase del día'],
   },
-  Ánimo: {
+  Animo: {
     title: 'Ánimo',
     description: 'Mento is Your Mentor and Coach in Performance and it will help you with your Goals and to reach Excellence',
     systemMessage: 'You are an Motivational Speaker specialist in take car of sadness and doubtness. Dont give the cliché advise. You are concise. ' +
