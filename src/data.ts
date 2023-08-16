@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export type SystemPurposeId = 'Coach' | 'Motivación' | 'Ánimo';
 
-export const defaultSystemPurposeId: SystemPurposeId = 'Generic';
+export const defaultSystemPurposeId: SystemPurposeId = 'Coach';
 
 type SystemPurposeData = {
   title: string;
