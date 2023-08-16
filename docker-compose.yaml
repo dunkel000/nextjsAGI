@@ -1,7 +1,7 @@
 version: '3.9'
 
 services:
-  big-agi:
+  mento-nextjsAGI:
     image: ghcr.io/enricoros/big-agi:main
     ports:
       - "3003:3000" #As 3000 us mostly used
