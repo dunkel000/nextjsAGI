@@ -1,8 +1,8 @@
 import * as React from 'react';
 
-export type SystemPurposeId = 'Coach' | 'Motivación' | 'Ánimo';
+export type SystemPurposeId = 'Developer' | 'Scientist' | 'Catalyst' | 'Executive' | 'Designer' | 'Generic' | 'Custom' | 'Coach' | 'Motivación' | 'Ánimo';
 
-export const defaultSystemPurposeId: SystemPurposeId = 'Coach';
+export const defaultSystemPurposeId: SystemPurposeId = 'Generic';
 
 type SystemPurposeData = {
   title: string;
